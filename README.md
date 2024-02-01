@@ -18,7 +18,7 @@ Clone the GapLERP repository:
 
 ```bash
 git clone https://github.com/GaslightGod/GapLERP.git
-cd gaplerp
+cd GapLERP
 ```
 Install project dependencies:
 
@@ -26,11 +26,9 @@ Install project dependencies:
 npm install
 ```
 
-Create a test file, e.g., gapLERP.test.js, with sample test cases. Make sure to adjust the paths accordingly:
+Modify the test file, e.g., GapLERP.test.js, with sample test cases. Make sure to adjust the paths accordingly:
 
 ```js
-// gapLERP.test.js
-
 const GapLERP = require('./GapLERP');
 
 describe('GapLERP Tests', () => {
