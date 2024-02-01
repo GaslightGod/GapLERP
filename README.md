@@ -12,3 +12,46 @@ Next, install Jest using the following command:
 npm install --save-dev jest
 ```
 
+## Running Test Cases
+
+Clone the GapLERP repository:
+
+```bash
+git clone https://github.com/GaslightGod/gaplerp.git
+cd gaplerp
+```
+Install project dependencies:
+
+```bash
+npm install
+```
+
+Create a test file, e.g., gapLERP.test.js, with sample test cases. Make sure to adjust the paths accordingly:
+
+```bash
+// gapLERP.test.js
+
+const GapLERP = require('./GapLERP');
+
+describe('GapLERP Tests', () => {
+  test('Test 1: Linear interpolation with gaps', () => {
+    const inputArray = [1, undefined, undefined, 4];
+    const expectedOutput = [1, 2, 3, 4];
+    expect(GapLERP.run(inputArray)).toEqual(expectedOutput);
+  });
+
+  test('Test 2: Array with no gaps', () => {
+    const inputArray = [1, 2, 3, 4];
+    const expectedOutput = [1, 2, 3, 4];
+    expect(GapLERP.run(inputArray)).toEqual(expectedOutput);
+  });
+
+  // Add more test cases as needed
+});
+```
+Run the tests using:
+
+```bash
+npm test
+```
+Ensure the output matches your expectations based on the defined test cases.
