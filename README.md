@@ -60,7 +60,7 @@ Ensure the output matches your expectations based on the defined test cases.
 
 GapLERP utilizes the linear interpolation formula:
 
-LERP(a,b,t)=a+t×(b−a)LERP(a,b,t)=a+t×(b−a)
+$`\[ \text{LERP}(a, b, t) = a + t \cdot (b - a) \]`$
 
 Here's how it ties together:
 
