@@ -17,7 +17,7 @@ npm install --save-dev jest
 Clone the GapLERP repository:
 
 ```bash
-git clone https://github.com/GaslightGod/gaplerp.git
+git clone https://github.com/GaslightGod/GapLERP.git
 cd gaplerp
 ```
 Install project dependencies:
