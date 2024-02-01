@@ -1,4 +1,11 @@
-# GapLERP - Linear Interpolation for Arrays with Gaps!
+<div align="center">
+  <h1>GapLERP - Linear Interpolation for Arrays with Gaps!</h1>
+</div>
+
+<div align="center">
+  <img src="https://media.discordapp.net/attachments/1178257853698560021/1202567191078379550/Linear-Interpolation-312471091.jpg?ex=65cdecf8&is=65bb77f8&hm=49bcfe665280406b55f06eaa435476595cc27e55ef5dac8a4e0939c9094c7baf&=&format=webp&width=600&height=360" alt="Alt Text" width="400">
+</div>
+
 
 GapLERP is a JavaScript class tailored for handling linear interpolation in arrays with undefined values. Seamlessly filling gaps using the LERP formula, GapLERP offers a versatile solution for scenarios like gaming applications, where tracking player movement changes over time can be critical. Enhance your projects with intelligent data refinement and ensure fair play by detecting cheating or movement-based issues. Explore GapLERP for a smart and efficient approach to linear interpolation. 🚀💻
 
@@ -18,7 +25,7 @@ Clone the GapLERP repository:
 
 ```bash
 git clone https://github.com/GaslightGod/GapLERP.git
-cd gaplerp
+cd GapLERP
 ```
 Install project dependencies:
 
@@ -26,11 +33,9 @@ Install project dependencies:
 npm install
 ```
 
-Create a test file, e.g., gapLERP.test.js, with sample test cases. Make sure to adjust the paths accordingly:
+Modify the test file, e.g., GapLERP.test.js, with sample test cases. Make sure to adjust the paths accordingly:
 
 ```js
-// gapLERP.test.js
-
 const GapLERP = require('./GapLERP');
 
 describe('GapLERP Tests', () => {
