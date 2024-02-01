@@ -24,3 +24,5 @@ class GapLERP {
     return gaps;
   }
 }
+
+module.exports = GapLERP;

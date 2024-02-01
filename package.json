@@ -1,0 +1,23 @@
+{
+  "name": "gaplerp",
+  "version": "1.0.0",
+  "description": "GapLERP is a JavaScript class tailored for handling linear interpolation in arrays with undefined values. Seamlessly filling gaps using the LERP formula, GapLERP offers a versatile solution for scenarios like gaming applications, where tracking player movement changes over time can be critical. Enhance your projects with intelligent data refinement and ensure fair play by detecting cheating or movement-based issues. Explore GapLERP for a smart and efficient approach to linear interpolation. 🚀💻",
+  "main": "GapLERP.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaslightGod/GapLERP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GaslightGod/GapLERP/issues"
+  },
+  "homepage": "https://github.com/GaslightGod/GapLERP#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
