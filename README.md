@@ -28,7 +28,7 @@ npm install
 
 Create a test file, e.g., gapLERP.test.js, with sample test cases. Make sure to adjust the paths accordingly:
 
-```bash
+```js
 // gapLERP.test.js
 
 const GapLERP = require('./GapLERP');
