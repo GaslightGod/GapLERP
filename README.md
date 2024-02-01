@@ -55,3 +55,20 @@ Run the tests using:
 npm test
 ```
 Ensure the output matches your expectations based on the defined test cases.
+
+## Linear Interpolation Formula
+
+GapLERP utilizes the linear interpolation formula:
+
+LERP(a,b,t)=a+t×(b−a)LERP(a,b,t)=a+t×(b−a)
+
+Here's how it ties together:
+
+    Undefined Gap Identification:
+        The undefined_gap method scans the player's distance array, pinpointing the indices where undefined values exist, signifying gaps.
+
+    Linear Interpolation:
+        The fix_gaps method utilizes linear interpolation to intelligently fill these gaps. It calculates the spread between defined values and smoothly populates the undefined positions based on the linear relationship.
+
+    Usage in Player Position Tracking:
+        The run method orchestrates the entire process, making it easy to track player position changes over ticks in gaming applications. Adjust the initial and final positions, set the number of ticks, and let the linear interpolation work its magic.
